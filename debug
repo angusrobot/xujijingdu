@@ -11,7 +11,7 @@ deploy() {
     cp -a src/image/logo.png public/img
     cp -a src/image/background.jpeg public/img
 
-    python -m http.server -d public 4000
+    python -m http.server -d public 80
 }
 
 clean() {
