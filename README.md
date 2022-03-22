@@ -7,7 +7,6 @@
 ```txt
 ├── public           # 网站发布目录
 ├── README.md
-├── debug            # 调试脚本
 └── src              # 网站开发源码
     ├── content      # 网站内容
     ├── image        # 图片
