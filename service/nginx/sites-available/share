@@ -1,0 +1,18 @@
+autoindex on;
+autoindex_exact_size on;
+autoindex_localtime on;
+
+server {
+    listen 20002;
+    server_name _;
+
+    root /home/angusrobot/share;
+    access_log /var/log/nginx/share-access.log;
+    error_log /var/log/nginx/share-error.log;
+
+    charset 'utf-8';
+
+    location / {
+    }
+
+}
