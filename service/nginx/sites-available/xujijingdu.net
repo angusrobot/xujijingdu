@@ -1,0 +1,11 @@
+server {
+    listen 80;
+    server_name xujijingdu.net www.xujijingdu.net;
+
+    root /home/angusrobot/xujijingdu;
+
+    location / {
+        index index.html;
+        try_files $uri $uri/ =404;
+    }
+}

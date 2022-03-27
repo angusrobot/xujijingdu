@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo apt update
+sudo apt install -y nginx
+
+sudo cp -r sites-available /etc/nginx/
+sudo ln -s /etc/nginx/sites-available/xujijingdu.net /etc/nginx/sites-enabled/xujijingdu.net
